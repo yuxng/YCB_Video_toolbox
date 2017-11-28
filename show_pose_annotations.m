@@ -1,5 +1,5 @@
 % seq_id: 0 ~ 91
-% The *-meta.mat file in the YCB-Video data contains the following fields:
+% The *-meta.mat file in the YCB-Video dataset contains the following fields:
 % center: 2D location of the projection of the 3D model origin in the image
 % cls_indexes: class labels of the objects
 % factor_depth: divde the depth image by this factor to get the actual depth vaule
