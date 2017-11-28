@@ -7,7 +7,7 @@ It provides accurate 6D poses of 21 objects from the YCB dataset observed in 92 
 
 The YCB-Video dataset is released under the MIT License (refer to the LICENSE file for details).
 
-### Citing ObjectNet3D
+### Citing
 
 If you find our dataset useful in your research, please consider citing:
 
