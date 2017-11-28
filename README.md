@@ -11,12 +11,12 @@ The YCB-Video dataset is released under the MIT License (refer to the LICENSE fi
 
 If you find our dataset useful in your research, please consider citing:
 
-@article{xiang2017posecnn,
-author    = {Xiang, Yu and Schmidt, Tanner and Narayanan, Venkatraman and Fox, Dieter},
-title     = {PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes},
-journal   = {arXiv preprint arXiv:1711.00199},
-year      = {2017}
-}
+	@article{xiang2017posecnn,
+	author    = {Xiang, Yu and Schmidt, Tanner and Narayanan, Venkatraman and Fox, Dieter},
+	title     = {PoseCNN: A Convolutional Neural Network for 6D Object Pose Estimation in Cluttered Scenes},
+	journal   = {arXiv preprint arXiv:1711.00199},
+	year      = {2017}
+	}
 
 ### Usage
 
