@@ -1,6 +1,6 @@
 ### Introduction
 
-This is the toolbox for [The YCB-Video database](https://rse-lab.cs.washington.edu/projects/posecnn/) introduced for 6D object pose estimation.
+This is the toolbox for [The YCB-Video dataset](https://rse-lab.cs.washington.edu/projects/posecnn/) introduced for 6D object pose estimation.
 It provides accurate 6D poses of 21 objects from the YCB dataset observed in 92 videos with 133,827 frames.
 
 ### License
