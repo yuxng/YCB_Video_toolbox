@@ -20,7 +20,7 @@ year      = {2017}
 
 ### Usage
 
-1. Set your path of the YCB-Video dataset in globals.m (required).
+1. Set your path of the YCB-Video dataset in [globals.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/globals.m) (required).
 
 2. [show_pose_annotations.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/show_pose_annotations.m) displays the overlays of 3D shapes onto images according to our annotations. Check the code of this function to understand the annotation format.
 
