@@ -10,6 +10,7 @@ object_names = C{1};
 fclose(fid);
 
 % load CAD models
+disp('loading 3D models...');
 num_objects = numel(object_names);
 models = cell(num_objects, 1);
 for i = 1:num_objects

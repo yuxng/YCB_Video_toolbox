@@ -1,3 +1,4 @@
+% seq_id: 0 ~ 91
 function show_pose_annotations(seq_id)
 
 opt = globals();
