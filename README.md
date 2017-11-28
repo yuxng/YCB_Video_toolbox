@@ -30,16 +30,18 @@ The *-meta.mat file in the YCB-Video dataset contains the following fields:
 
 ### Usage
 
-1. Set your path of the YCB-Video dataset in [globals.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/globals.m) (required).
+1. Download the YCB-Video dataset from [here](https://rse-lab.cs.washington.edu/projects/posecnn/).
 
-2. [show_pose_annotations.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/show_pose_annotations.m) displays the overlays of 3D shapes onto images according to our annotations. Check the code of this function to understand the annotation format.
+2. Set your path of the YCB-Video dataset in [globals.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/globals.m) (required).
 
-3. [show_pose_results.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/show_pose_results.m) displays the 6D pose estimation results from PoseCNN. Unzip [results_PoseCNN.zip](https://github.com/yuxng/YCB_Video_toolbox/blob/master/results_PoseCNN.zip) before calling the function.
+3. [show_pose_annotations.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/show_pose_annotations.m) displays the overlays of 3D shapes onto images according to our annotations. Check the code of this function to understand the annotation format.
 
-4. [evaluate_poses_stereo.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/evaluate_poses_stereo.m) evaluates our results on the stereo pairs. Check the code of this function to understand the evaluation metric.
+4. [show_pose_results.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/show_pose_results.m) displays the 6D pose estimation results from PoseCNN. Unzip [results_PoseCNN.zip](https://github.com/yuxng/YCB_Video_toolbox/blob/master/results_PoseCNN.zip) before calling the function.
 
-5. [evaluate_poses_keyframe.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/evaluate_poses_keyframe.m) evaluates our results on the keyframes.
+5. [evaluate_poses_stereo.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/evaluate_poses_stereo.m) evaluates our results on the stereo pairs. Check the code of this function to understand the evaluation metric.
 
-6. [plot_accuracy_stereo.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/plot_accuracy_stereo.m) plots all the accuracy-threshold curves from the stereo pairs.
+6. [evaluate_poses_keyframe.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/evaluate_poses_keyframe.m) evaluates our results on the keyframes.
 
-7. [plot_accuracy_keyframe.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/plot_accuracy_keyframe.m) plots all the accuracy-threshold curves from the keyframes.
+7. [plot_accuracy_stereo.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/plot_accuracy_stereo.m) plots all the accuracy-threshold curves from the stereo pairs.
+
+8. [plot_accuracy_keyframe.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/plot_accuracy_keyframe.m) plots all the accuracy-threshold curves from the keyframes.
