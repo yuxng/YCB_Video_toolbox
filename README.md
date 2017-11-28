@@ -18,6 +18,15 @@ If you find our dataset useful in your research, please consider citing:
 	year      = {2017}
 	}
 
+### Annotation
+The *-meta.mat file in the YCB-Video data contains the following fields:
+- center: 2D location of the projection of the 3D model origin in the image
+- cls_indexes: class labels of the objects
+- factor_depth: divde the depth image by this factor to get the actual depth vaule
+- intrinsic_matrix: camera intrinsics
+- rotation_translation_matrix: RT of the camera motion in 3D
+- vertmap: coordinates in the 3D model space of each pixel in the image
+
 ### Usage
 
 1. Set your path of the YCB-Video dataset in [globals.m](https://github.com/yuxng/YCB_Video_toolbox/blob/master/globals.m) (required).
