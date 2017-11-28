@@ -24,6 +24,7 @@ The *-meta.mat file in the YCB-Video dataset contains the following fields:
 - cls_indexes: class labels of the objects
 - factor_depth: divde the depth image by this factor to get the actual depth vaule
 - intrinsic_matrix: camera intrinsics
+- poses: 6D poses of objects in the image
 - rotation_translation_matrix: RT of the camera motion in 3D
 - vertmap: coordinates in the 3D model space of each pixel in the image
 
