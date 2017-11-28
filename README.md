@@ -18,7 +18,7 @@ If you find our dataset useful in your research, please consider citing:
 	year      = {2017}
 	}
 
-### Annotation
+### Annotation format
 The *-meta.mat file in the YCB-Video dataset contains the following fields:
 - center: 2D location of the projection of the 3D model origin in the image
 - cls_indexes: class labels of the objects
